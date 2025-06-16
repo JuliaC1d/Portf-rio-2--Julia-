@@ -2,52 +2,83 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Meu portfólio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio - Julia Cardoso</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
-    <header class="container text-center">
-        <img src="img/avatar-perfil.png" class="rounded-circle" width="150" height="150"
-            srcset="">
-        <h1>JULIA CARDOSO</h1>
-        <pSou>Sou estudante do 2° ano da E.E Astrogildo Arruda, onde constantemente me coloco em novos desafios para atingir meu protagonismo estudantil.
-Participo de todos os projetos das escolas: peça teatral, curso speak, curso alura, acolhimento, campeonatos, projeto redação, entre outros.
-</p>
-        <p>Minhas habilidades</p>
-        <div>
-            <p class="badge bg-secondary">Vscode</p>
-            <p class="badge bg-secondary">CSS</p>
-            <p class="badge bg-secondary">JavaScript</p>
-            <p class="badge bg-secondary">p5js</p>
-        </div>
-    </header>
-    <main class="container mt-5">
-        <h2>Meu projeto</h2>
-        <div class="row">
-            <!-- Projeto 1 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">p5.js</h5>
-                        <p class="card-text">O p5.js é uma biblioteca de animação desenvolvida usando a linguagem de programação Javascript. Ele é projetado para artistas, desenvolvedores e conhecedores de mídia para criar arte interativa, jogos, visualizações de dados e animações.
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">https://editor.p5js.org/JuliaCardoso1D/sketches/NkEbPBXdEd</button>
-                    </div>
-                </div>
-            </div>
-    <footer class="container py-5">
-        <h2>Entre em contato</h2>
-        <div>
-            <i class="00001118496358sp@al.educacao.sp.gov.br"></i>
-        </div>
-        <p class="my-5 text-center">© Copyright 2025. Produzido por Julia Cardoso</p>
-    </footer>
+  <!-- Cabeçalho -->
+  <header class="container text-center mt-4">
+    <img src="img/avatar-perfil.png" class="rounded-circle mb-3" width="150" height="150" alt="Avatar Julia Cardoso">
+    <h1>Julia Cardoso</h1>
+    <p class="lead">Sou estudante do 2º ano da E.E. Astrogildo Arruda, sempre buscando novos desafios para desenvolver meu protagonismo estudantil.</p>
+    <p>Participo ativamente de diversos projetos escolares como:</p>
+    <ul class="list-unstyled">
+      <li>🎭 Peça teatral</li>
+      <li>🗣 Curso Speak (inglês)</li>
+      <li>💻 Curso Alura</li>
+      <li>🤝 Acolhimento</li>
+      <li>⚽ Campeonatos</li>
+      <li>📝 Projeto Redação</li>
+      <li>📚 Entre outros...</li>
+    </ul>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Habilidades -->
+    <h5 class="mt-4">Minhas Habilidades</h5>
+    <div>
+      <span class="badge bg-secondary">VS Code</span>
+      <span class="badge bg-secondary">CSS</span>
+      <span class="badge bg-secondary">JavaScript</span>
+      <span class="badge bg-secondary">p5.js</span>
+    </div>
+  </header>
+
+  <!-- Projetos -->
+  <main class="container mt-5">
+    <h2 class="text-center mb-4">Meus Projetos</h2>
+    <div class="row justify-content-center">
+      <!-- Projeto 1 -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Corrida 2 - p5.js</h5>
+            <p class="card-text">Projeto interativo feito com a biblioteca p5.js.</p>
+            <a href="https://editor.p5js.org/JuliaCardoso1D/sketches/UpPeyTnjJ" class="btn btn-primary" target="_blank">Ver Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 2 -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Lógica de Programação</h5>
+            <p class="card-text">Exercício prático usando lógica de programação em p5.js.</p>
+            <a href="https://editor.p5js.org/JuliaCardoso1D/sketches/-Fv6ru-eQ" class="btn btn-primary" target="_blank">Ver Projeto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Curso de Inglês -->
+    <section class="mt-5">
+      <h2 class="text-center mb-3">Curso de Inglês - Speak</h2>
+      <p class="text-center">Desde o 1º ano participo do curso de inglês <strong>Speak</strong> com a professora <strong>Poliana</strong>. Atualmente estou no nível <strong>intermediário</strong>, desenvolvendo habilidades em conversação, escuta e escrita.</p>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="container text-center py-5">
+    <h2>Entre em contato</h2>
+    <p><i class="bi bi-envelope-fill me-2"></i>00001118496358sp@al.educacao.sp.gov.br</p>
+    <p class="mt-4 text-muted">© 2025 Julia Cardoso. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Scripts Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
